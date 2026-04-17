@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Fira+Code:wght@400;600&display=swap');
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  color: #1f2a44;
+  background:
+    radial-gradient(circle at top left, rgba(79, 70, 229, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.12), transparent 24%),
+    #f0f4ff;
+  line-height: 1.45;
+  font-weight: 600;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-main: #f0f4ff;
+  --card: #ffffff;
+  --primary: #4f46e5;
+  --primary-dark: #3730a3;
+  --success: #22c55e;
+  --warning: #f97316;
+  --text-main: #1f2a44;
+  --text-soft: #536079;
+  --shadow-soft: 0 18px 40px rgba(58, 72, 126, 0.12);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-size: 18px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+code,
+pre,
+.mono {
+  font-family: 'Fira Code', monospace;
+}
